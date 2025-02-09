@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "BMS-Mux-footprints")(type "KiCad")(uri "${KIPRJMOD}/libraries/BMS-Mux-footprints.pretty")(options "")(descr ""))
+)

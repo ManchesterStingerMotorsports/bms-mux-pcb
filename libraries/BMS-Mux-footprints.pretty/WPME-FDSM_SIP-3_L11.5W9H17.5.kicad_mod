@@ -1,0 +1,295 @@
+(footprint "WPME-FDSM_SIP-3_L11.5W9H17.5"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Fixed Step Down Regulator Module, SIP-3, body 11.50x9.00mm")
+	(property "Reference" "REF**"
+		(at 0 -5.425 0)
+		(layer "F.SilkS")
+		(uuid "98ce3ef6-2271-406c-8a87-c9a703d5f201")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "WPME-FDSM_SIP-3_L11.5W9H17.5"
+		(at 0 5.425 0)
+		(layer "F.Fab")
+		(uuid "560a7019-a1c2-4233-bbba-fd1aa763c1bb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "425ff398-e814-4ac8-9d1c-ba7858c78269")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a281cd72-9103-47b0-8d14-3dcf8136df92")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a763b719-77ee-4c72-9eab-7c2f92c78d82")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -5.875 -4.625)
+		(end 5.875 -4.625)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8b294778-3c26-4870-94b6-cb23deb116c1")
+	)
+	(fp_line
+		(start -5.875 4.625)
+		(end -5.875 -4.625)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ce1956ea-b9c7-4f65-82b8-ea4c82d67d1d")
+	)
+	(fp_line
+		(start -5.875 4.625)
+		(end 5.875 4.625)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "50f5c462-7311-449b-9190-30177a5042cc")
+	)
+	(fp_line
+		(start 5.875 4.625)
+		(end 5.875 -4.625)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e53d9953-b2bb-4527-b42c-787f87f034df")
+	)
+	(fp_line
+		(start -6.075 -4.825)
+		(end 6.075 -4.825)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "dbe988de-0304-4cb3-b4c6-d9220c55fcde")
+	)
+	(fp_line
+		(start -6.075 4.825)
+		(end -6.075 -4.825)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "ca7437a8-1012-4dbb-bc4b-ba4b4fe57694")
+	)
+	(fp_line
+		(start -6.075 4.825)
+		(end 6.075 4.825)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "a373e838-e27b-4774-b6d1-8aad3c235347")
+	)
+	(fp_line
+		(start -5.75 -4.5)
+		(end 5.75 -4.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "7d2d8b68-3401-4eec-af18-c13f4bf7d686")
+	)
+	(fp_line
+		(start -5.75 4.5)
+		(end -5.75 -4.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "3827bffc-700c-4270-a068-63361164cbdb")
+	)
+	(fp_line
+		(start -5.75 4.5)
+		(end 5.75 4.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "1f691845-e3e9-4a0d-ac50-57e998f7c1da")
+	)
+	(fp_line
+		(start -0.5 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "3c3d2299-9968-4b1f-9d83-a635336a0dc0")
+	)
+	(fp_line
+		(start 0 0.5)
+		(end 0 -0.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "3f2f5064-e42c-4325-9e57-a84ff203cf5b")
+	)
+	(fp_line
+		(start 5.75 4.5)
+		(end 5.75 -4.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "5c9aa8a7-b72b-4d40-b1df-ea5cd55b2551")
+	)
+	(fp_line
+		(start 6.075 4.825)
+		(end 6.075 -4.825)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "ba9410b0-50d1-4447-a54c-c0597998cf80")
+	)
+	(fp_line
+		(start -5.75 -4.5)
+		(end 5.75 -4.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "d4fce326-aaee-4b01-b2c9-2670a76abf1e")
+	)
+	(fp_line
+		(start -5.75 4.5)
+		(end -5.75 -4.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "b731b749-6d01-4736-a0de-57afafdc17dd")
+	)
+	(fp_line
+		(start -5.75 4.5)
+		(end 5.75 4.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "b12ddc14-db6d-4159-a421-3a8dc7f2ca75")
+	)
+	(fp_line
+		(start 5.75 4.5)
+		(end 5.75 -4.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "60d79b48-82ef-4623-9099-4d7b8d783393")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.15 -0.19691 0)
+		(unlocked yes)
+		(layer "User.3")
+		(uuid "9c1ccf06-0026-43fd-a8d8-2a58514e1b80")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at -2.54 -2.35)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(uuid "b817402a-d537-44d0-a469-85f513c970fe")
+	)
+	(pad "2" thru_hole circle
+		(at 0 -2.35)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "f8e93ddc-5a6a-494a-b3fb-f2cbbea090da")
+	)
+	(pad "3" thru_hole circle
+		(at 2.54 -2.35)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "20d03e7c-8970-4db8-923c-d9a0af96d25a")
+	)
+	(model "${KIPRJMOD}/libraries/STP_WPME-FDSM_173950575 (rev1).stp"
+		(offset
+			(xyz 0 0.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
