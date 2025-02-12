@@ -895,7 +895,7 @@
 				)
 			)
 		)
-		(symbol "Connector_Generic:Conn_01x17"
+		(symbol "Connector_Generic:Conn_01x18"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
@@ -909,8 +909,8 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x17"
-				(at 0 -22.86 0)
+			(property "Value" "Conn_01x18"
+				(at 0 -25.4 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -935,7 +935,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x17, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, single row, 01x18, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -962,7 +962,18 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x17_1_1"
+			(symbol "Conn_01x18_1_1"
+				(rectangle
+					(start -1.27 -22.733)
+					(end 0 -22.987)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(rectangle
 					(start -1.27 -20.193)
 					(end 0 -20.447)
@@ -1152,7 +1163,7 @@
 				)
 				(rectangle
 					(start -1.27 21.59)
-					(end 1.27 -21.59)
+					(end 1.27 -24.13)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1316,6 +1327,24 @@
 						)
 					)
 					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -22.86 0)
+					(length 3.81)
+					(name "Pin_18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3948,6 +3977,108 @@
 				)
 			)
 		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Regulator_Switching:TMR_1-4812"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5161,8 +5292,28 @@
 		(uuid "fef06d14-4b57-4476-a49c-640c9ff7bf50")
 	)
 	(no_connect
+		(at 201.93 271.78)
+		(uuid "67ad03aa-6c45-42ec-9d03-a0576bec7324")
+	)
+	(no_connect
+		(at 232.41 262.89)
+		(uuid "6def8e25-7a19-42f7-86a8-8c9b208e1c4f")
+	)
+	(no_connect
 		(at 69.85 200.66)
 		(uuid "8c41a0b3-708c-44fc-9e4d-e994ac25d236")
+	)
+	(no_connect
+		(at 121.92 157.48)
+		(uuid "9aa5c465-603f-4e01-bf9d-647e9f8210d9")
+	)
+	(no_connect
+		(at 201.93 262.89)
+		(uuid "b1611049-e050-4a3a-9bbb-798bff23fc88")
+	)
+	(no_connect
+		(at 232.41 271.78)
+		(uuid "eb6bae7a-3f0c-4828-a355-4e7211ec0c29")
 	)
 	(wire
 		(pts
@@ -5396,16 +5547,6 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 146.05) (xy 280.67 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14a72e25-f2ba-4cce-8955-71437f0ec61f")
-	)
-	(wire
-		(pts
 			(xy 86.36 204.47) (xy 86.36 200.66)
 		)
 		(stroke
@@ -5436,6 +5577,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 140.97) (xy 214.63 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18b0b827-845b-4ecc-945b-71e0b73b8f4f")
+	)
+	(wire
+		(pts
 			(xy 59.69 50.8) (xy 137.16 50.8)
 		)
 		(stroke
@@ -5463,16 +5614,6 @@
 			(type default)
 		)
 		(uuid "18f92128-3d9c-4542-8c4a-1e155f759007")
-	)
-	(wire
-		(pts
-			(xy 280.67 146.05) (xy 280.67 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19b57ebd-9b5d-49b7-b930-8a9af1592a32")
 	)
 	(wire
 		(pts
@@ -5716,6 +5857,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 43.18) (xy 120.65 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "307de377-d719-477d-b77f-3382e485e57b")
+	)
+	(wire
+		(pts
 			(xy 279.4 82.55) (xy 262.89 82.55)
 		)
 		(stroke
@@ -5896,6 +6047,16 @@
 	)
 	(wire
 		(pts
+			(xy 276.86 140.97) (xy 276.86 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fb218f7-91c4-4aae-beb6-89696b591926")
+	)
+	(wire
+		(pts
 			(xy 247.65 80.01) (xy 236.22 80.01)
 		)
 		(stroke
@@ -5926,23 +6087,13 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 43.18) (xy 120.65 66.04)
+			(xy 276.86 149.86) (xy 265.43 149.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4596060d-8f03-498d-96f9-7a499cc23e30")
-	)
-	(wire
-		(pts
-			(xy 214.63 140.97) (xy 214.63 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4723d7a7-8bbc-4064-a962-b13acc323bb1")
+		(uuid "43af1232-d46b-415b-826d-3a217cc946bb")
 	)
 	(wire
 		(pts
@@ -6053,16 +6204,6 @@
 			(type default)
 		)
 		(uuid "559cd253-cee0-4d9b-a997-a7dfae4a120c")
-	)
-	(wire
-		(pts
-			(xy 276.86 140.97) (xy 276.86 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57248c91-3325-4404-9224-0642e1dd87b9")
 	)
 	(wire
 		(pts
@@ -6726,6 +6867,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 149.86) (xy 203.2 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97fbb5a8-4626-4d6c-83a5-1f8d608d0811")
+	)
+	(wire
+		(pts
 			(xy 234.95 127) (xy 265.43 127)
 		)
 		(stroke
@@ -6733,16 +6884,6 @@
 			(type default)
 		)
 		(uuid "991d5e3a-c508-4f49-a2ca-9edafb5eb274")
-	)
-	(wire
-		(pts
-			(xy 214.63 146.05) (xy 218.44 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99872b9b-ae78-4d3a-92ca-22b45430c3c9")
 	)
 	(wire
 		(pts
@@ -7593,16 +7734,6 @@
 			(type default)
 		)
 		(uuid "e524b207-79bd-4193-823d-f486bd1a4664")
-	)
-	(wire
-		(pts
-			(xy 218.44 146.05) (xy 218.44 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7bd238e-a1aa-421d-8247-04594965be15")
 	)
 	(wire
 		(pts
@@ -15038,7 +15169,7 @@
 		)
 		(uuid "1be15418-0d7d-4048-9056-f3acd4e7c365")
 	)
-	(text "SENSOR INPUT / OUTPUT"
+	(text "SENSOR INPUT"
 		(exclude_from_sim no)
 		(at 20.066 20.32 0)
 		(effects
@@ -15099,7 +15230,7 @@
 	)
 	(text "3.5 Pitch Conn"
 		(exclude_from_sim no)
-		(at 127.254 155.702 0)
+		(at 127.508 153.416 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15130,7 +15261,7 @@
 		)
 		(uuid "aa7388f3-74fa-4c37-8ebe-123a748797f9")
 	)
-	(text "2 to 4 mA (ON)"
+	(text "2 to 4 mA (OFF)"
 		(exclude_from_sim no)
 		(at 230.378 193.04 0)
 		(effects
@@ -15162,6 +15293,16 @@
 			(justify left)
 		)
 		(uuid "ddf5ffb6-e627-4086-a69d-48c80b6e9f74")
+	)
+	(text "https://uk.rs-online.com/web/p/non-resettable-fuses/5413552?gb=s"
+		(exclude_from_sim no)
+		(at 102.87 220.218 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ece1407e-90ad-44d1-8bef-c500e4a84e3a")
 	)
 	(text "CELL MEASUREMENT / BALANCING INPUT"
 		(exclude_from_sim no)
@@ -15935,7 +16076,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_2512_6332Metric_Pad1.52x3.35mm_HandSolder"
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 104.14 192.278 90)
 			(effects
 				(font
@@ -16268,7 +16409,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_2512_6332Metric_Pad1.52x3.35mm_HandSolder"
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 104.14 182.118 90)
 			(effects
 				(font
@@ -16311,17 +16452,35 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 280.67 144.78 0)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 232.41 260.35 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "139e91d3-8570-43f1-9f32-c954a89444dc")
-		(property "Reference" "#PWR024"
-			(at 280.67 148.59 0)
+		(uuid "129a20fb-87cb-4103-8b39-8a0768c7b396")
+		(property "Reference" "H2"
+			(at 234.95 257.8099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 234.95 260.3499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BMS-Mux-footprints:Mounting_Hole"
+			(at 232.41 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16329,16 +16488,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 280.67 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 280.67 144.78 0)
+		(property "Datasheet" "~"
+			(at 232.41 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16346,17 +16497,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 280.67 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 280.67 144.78 0)
+		(property "Description" "Mounting Hole with connection"
+			(at 232.41 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16365,12 +16507,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "6db17776-1b84-4434-843c-4338f0964448")
+			(uuid "83ee100b-9b8b-4580-ac46-2040cae573f8")
 		)
 		(instances
 			(project "BMS-Mux-PCB"
 				(path "/a2925814-5dc3-4888-bdb8-1bf38cbb6bf2"
-					(reference "#PWR024")
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -16439,6 +16581,124 @@
 			(project "BMS-Mux-PCB"
 				(path "/a2925814-5dc3-4888-bdb8-1bf38cbb6bf2"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x18")
+		(at 127 180.34 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "18a9060d-2e91-4a93-a12f-7fc3b4b06601")
+		(property "Reference" "J4"
+			(at 122.174 206.756 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x18"
+			(at 122.174 204.216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Wago:Wago_734-148_1x18_P3.50mm_Vertical"
+			(at 127 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x18, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 127 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "2f000e43-3222-4c53-a43d-3a21a57e8b97")
+		)
+		(pin "17"
+			(uuid "6d264449-a357-4276-916c-813df6146e47")
+		)
+		(pin "18"
+			(uuid "99bc9370-5d1b-4788-8611-3a20059b9cfb")
+		)
+		(pin "2"
+			(uuid "4af6afd7-bd63-4f5c-9974-7693801fceb9")
+		)
+		(pin "4"
+			(uuid "79ca1107-83c9-4a43-86d5-8d592b2c0c68")
+		)
+		(pin "7"
+			(uuid "ffba3418-4a89-4350-8eb6-79bd83255f61")
+		)
+		(pin "5"
+			(uuid "44c3aed5-0b54-4227-836f-178a0ec898bf")
+		)
+		(pin "10"
+			(uuid "37e6ae2e-b535-4188-b1bc-e75bc9f46432")
+		)
+		(pin "6"
+			(uuid "932b1fef-846c-4078-8a1b-e167db157da1")
+		)
+		(pin "14"
+			(uuid "67788c88-e12a-456b-bf68-732ec9b3c995")
+		)
+		(pin "16"
+			(uuid "713c0c33-422a-4ce4-b78d-f9a1b813cf2c")
+		)
+		(pin "1"
+			(uuid "f8075973-2679-4da3-9904-6f0adbfce851")
+		)
+		(pin "8"
+			(uuid "fdbe2de6-6eb4-48b0-8628-54a001aee6ee")
+		)
+		(pin "13"
+			(uuid "002fbb73-a650-459c-97b6-957d2aee07ac")
+		)
+		(pin "12"
+			(uuid "242b9db1-d8bd-41b3-b61f-9a02b260de68")
+		)
+		(pin "15"
+			(uuid "70b84b82-4917-484a-88fa-f7fe82eb428c")
+		)
+		(pin "11"
+			(uuid "ddf74b26-bb19-4a83-ad61-8b8510ccb6c7")
+		)
+		(pin "9"
+			(uuid "e5aaf767-364f-4ef5-8887-389c0e4b61bc")
+		)
+		(instances
+			(project ""
+				(path "/a2925814-5dc3-4888-bdb8-1bf38cbb6bf2"
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -16723,6 +16983,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 201.93 269.24 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "23c39e72-69ba-4a1f-b392-0d8e24a1db33")
+		(property "Reference" "H3"
+			(at 204.47 266.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 204.47 269.2399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BMS-Mux-footprints:Mounting_Hole"
+			(at 201.93 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 201.93 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 201.93 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "65412073-8982-4357-bed2-655222ab0bd1")
+		)
+		(instances
+			(project "BMS-Mux-PCB"
+				(path "/a2925814-5dc3-4888-bdb8-1bf38cbb6bf2"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 49.53 33.02 0)
 		(unit 1)
@@ -16814,7 +17141,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_2512_6332Metric_Pad1.52x3.35mm_HandSolder"
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 104.14 187.198 90)
 			(effects
 				(font
@@ -18452,7 +18779,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_2512_6332Metric_Pad1.52x3.35mm_HandSolder"
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 104.14 174.498 90)
 			(effects
 				(font
@@ -19269,7 +19596,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_2512_6332Metric_Pad1.52x3.35mm_HandSolder"
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 104.14 199.898 90)
 			(effects
 				(font
@@ -19337,7 +19664,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_2512_6332Metric_Pad1.52x3.35mm_HandSolder"
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 104.14 179.578 90)
 			(effects
 				(font
@@ -19374,6 +19701,73 @@
 			(project "BMS-Mux-PCB"
 				(path "/a2925814-5dc3-4888-bdb8-1bf38cbb6bf2"
 					(reference "F8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 201.93 260.35 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9099d057-9dc5-46f8-a667-1ea3c7a76e86")
+		(property "Reference" "H1"
+			(at 204.47 257.8099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 204.47 260.3499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BMS-Mux-footprints:Mounting_Hole"
+			(at 201.93 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 201.93 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 201.93 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7adbc0cc-6951-43e1-a5a3-0f3edb61a7d6")
+		)
+		(instances
+			(project ""
+				(path "/a2925814-5dc3-4888-bdb8-1bf38cbb6bf2"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -19986,7 +20380,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_2512_6332Metric_Pad1.52x3.35mm_HandSolder"
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 104.14 161.798 90)
 			(effects
 				(font
@@ -20411,7 +20805,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_2512_6332Metric_Pad1.52x3.35mm_HandSolder"
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 104.14 177.038 90)
 			(effects
 				(font
@@ -20479,7 +20873,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_2512_6332Metric_Pad1.52x3.35mm_HandSolder"
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 104.14 164.338 90)
 			(effects
 				(font
@@ -20522,72 +20916,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 218.44 144.78 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b067d8c8-ca48-4bce-9a80-c1956ef31ed5")
-		(property "Reference" "#PWR023"
-			(at 218.44 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 218.44 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 218.44 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 218.44 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 218.44 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "51f0287a-488b-4f5b-99e8-43540b8de385")
-		)
-		(instances
-			(project "BMS-Mux-PCB"
-				(path "/a2925814-5dc3-4888-bdb8-1bf38cbb6bf2"
-					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:Fuse")
 		(at 104.14 170.18 270)
 		(mirror x)
@@ -20613,7 +20941,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_2512_6332Metric_Pad1.52x3.35mm_HandSolder"
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 104.14 171.958 90)
 			(effects
 				(font
@@ -20792,7 +21120,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_2512_6332Metric_Pad1.52x3.35mm_HandSolder"
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 104.14 184.658 90)
 			(effects
 				(font
@@ -21125,6 +21453,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 232.41 269.24 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf6db798-b5dd-482a-b727-3eb0ba0065d2")
+		(property "Reference" "H4"
+			(at 234.95 266.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 234.95 269.2399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BMS-Mux-footprints:Mounting_Hole"
+			(at 232.41 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 232.41 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 232.41 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ab4a2a46-b565-411f-bb10-ebe56fdaabb8")
+		)
+		(instances
+			(project "BMS-Mux-PCB"
+				(path "/a2925814-5dc3-4888-bdb8-1bf38cbb6bf2"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 232.41 210.82 0)
 		(unit 1)
@@ -21287,7 +21682,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_2512_6332Metric_Pad1.52x3.35mm_HandSolder"
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 104.14 194.818 90)
 			(effects
 				(font
@@ -21540,7 +21935,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_2512_6332Metric_Pad1.52x3.35mm_HandSolder"
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 104.14 166.878 90)
 			(effects
 				(font
@@ -21608,7 +22003,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_2512_6332Metric_Pad1.52x3.35mm_HandSolder"
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 104.14 169.418 90)
 			(effects
 				(font
@@ -21826,119 +22221,6 @@
 			(project "BMS-Mux-PCB"
 				(path "/a2925814-5dc3-4888-bdb8-1bf38cbb6bf2"
 					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x17")
-		(at 127 180.34 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d1e8c46e-6ffc-436f-b8fe-395323937271")
-		(property "Reference" "J4"
-			(at 127 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x17"
-			(at 127 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_TE-Connectivity:TE_1-826576-7_1x17_P3.96mm_Vertical"
-			(at 127 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 127 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x17, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 127 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "7c0e7d5d-7049-4eaf-93cc-9283dbd57d1c")
-		)
-		(pin "16"
-			(uuid "39584775-ce8e-486b-9c9d-e15336d4695d")
-		)
-		(pin "5"
-			(uuid "7a08375a-ffd6-40b5-ae0e-c1841dc6c2e5")
-		)
-		(pin "9"
-			(uuid "d0eea30b-d954-44cc-af4f-6ff87b4cdce2")
-		)
-		(pin "2"
-			(uuid "a6b474b1-b7d5-4d7b-90be-71896999a05d")
-		)
-		(pin "14"
-			(uuid "c7e678d4-9f77-47cb-97e9-a9c0bb7e3ead")
-		)
-		(pin "1"
-			(uuid "6c1d8b51-d26a-47d7-ad2e-c1f27a823a6f")
-		)
-		(pin "13"
-			(uuid "6d580eea-0cf0-47c5-a5f0-5c460dfac750")
-		)
-		(pin "12"
-			(uuid "6da2d19c-2085-4b9c-a322-d900e39a2bc3")
-		)
-		(pin "11"
-			(uuid "575b8924-4f2a-4968-b82b-67943e63ed5e")
-		)
-		(pin "10"
-			(uuid "d4110e83-fac4-46ad-adc6-ea06abaa73b9")
-		)
-		(pin "17"
-			(uuid "3baeb257-1318-4636-befa-e7cf3d909589")
-		)
-		(pin "15"
-			(uuid "30e34eb5-adb8-4089-a9de-38d273a9c492")
-		)
-		(pin "8"
-			(uuid "1c780d4a-0bf9-495a-83c7-55a2b04c6cb7")
-		)
-		(pin "6"
-			(uuid "fed693e3-0359-4c4b-82fb-bbe25278541f")
-		)
-		(pin "7"
-			(uuid "911a0a9d-d3f6-4d63-82ff-91d9ac18169a")
-		)
-		(pin "3"
-			(uuid "744f74a9-48ba-4fee-ab0e-0250453799a7")
-		)
-		(instances
-			(project ""
-				(path "/a2925814-5dc3-4888-bdb8-1bf38cbb6bf2"
-					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -22344,7 +22626,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_2512_6332Metric_Pad1.52x3.35mm_HandSolder"
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 104.14 197.358 90)
 			(effects
 				(font
@@ -22620,7 +22902,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_2512_6332Metric_Pad1.52x3.35mm_HandSolder"
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 104.14 189.738 90)
 			(effects
 				(font
@@ -22753,7 +23035,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-2000_2x10_P3.00mm_Horizontal"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical"
 			(at 59.69 250.19 0)
 			(effects
 				(font
