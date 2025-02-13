@@ -1,4 +1,4 @@
-24597261137217191
+24602479324757733
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -13,6 +13,27 @@ audio belton reverb
 0
 7
 7
+BMS-Mux-footprints
+Molex_Micro-Fit_3.0_43045-1600_2x08_P3.00mm_Horizontal
+Molex Micro-Fit 3.0 Connector System, 43045-1600 (alternative finishes: 43045-160x), 8 Pins per row (https://www.molex.com/pdm_docs/sd/430450201_sd.pdf), generated with kicad-footprint-generator
+connector Molex Micro-Fit_3.0 horizontal
+0
+16
+16
+BMS-Mux-footprints
+Molex_Micro-Fit_3.0_43045-1800_2x09_P3.00mm_Horizontal
+Molex Micro-Fit 3.0 Connector System, 43045-1800 (alternative finishes: 43045-180x), 9 Pins per row (https://www.molex.com/pdm_docs/sd/430450201_sd.pdf), generated with kicad-footprint-generator
+connector Molex Micro-Fit_3.0 horizontal
+0
+18
+18
+BMS-Mux-footprints
+Molex_Micro-Fit_3.0_43650-0200_1x02_P3.00mm_Horizontal
+Molex Micro-Fit 3.0 Connector System, 43650-0200 (compatible alternatives: 43650-0201, 43650-0202), 2 Pins per row (https://www.molex.com/pdm_docs/sd/436500300_sd.pdf), generated with kicad-footprint-generator
+connector Molex Micro-Fit_3.0 top entry
+0
+2
+2
 BMS-Mux-footprints
 Mounting_Hole
 Mounting Hole 4.5mm

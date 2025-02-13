@@ -2043,7 +2043,7 @@
 				)
 			)
 		)
-		(symbol "Connector_Generic:Conn_02x09_Counter_Clockwise"
+		(symbol "Connector_Generic:Conn_02x09_Top_Bottom"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
@@ -2057,7 +2057,7 @@
 					)
 				)
 			)
-			(property "Value" "Conn_02x09_Counter_Clockwise"
+			(property "Value" "Conn_02x09_Top_Bottom"
 				(at 1.27 -12.7 0)
 				(effects
 					(font
@@ -2083,7 +2083,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, double row, 02x09, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, double row, 02x09, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2110,7 +2110,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_02x09_Counter_Clockwise_1_1"
+			(symbol "Conn_02x09_Top_Bottom_1_1"
 				(rectangle
 					(start -1.27 -10.033)
 					(end 0 -10.287)
@@ -2339,7 +2339,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -10.16 180)
+					(at 7.62 10.16 180)
 					(length 3.81)
 					(name "Pin_10"
 						(effects
@@ -2357,7 +2357,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -7.62 180)
+					(at 7.62 7.62 180)
 					(length 3.81)
 					(name "Pin_11"
 						(effects
@@ -2375,7 +2375,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -5.08 180)
+					(at 7.62 5.08 180)
 					(length 3.81)
 					(name "Pin_12"
 						(effects
@@ -2393,7 +2393,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -2.54 180)
+					(at 7.62 2.54 180)
 					(length 3.81)
 					(name "Pin_13"
 						(effects
@@ -2429,7 +2429,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 2.54 180)
+					(at 7.62 -2.54 180)
 					(length 3.81)
 					(name "Pin_15"
 						(effects
@@ -2447,7 +2447,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 5.08 180)
+					(at 7.62 -5.08 180)
 					(length 3.81)
 					(name "Pin_16"
 						(effects
@@ -2465,7 +2465,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 7.62 180)
+					(at 7.62 -7.62 180)
 					(length 3.81)
 					(name "Pin_17"
 						(effects
@@ -2483,7 +2483,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 10.16 180)
+					(at 7.62 -10.16 180)
 					(length 3.81)
 					(name "Pin_18"
 						(effects
@@ -2646,7 +2646,7 @@
 				)
 			)
 		)
-		(symbol "Connector_Generic:Conn_02x10_Counter_Clockwise"
+		(symbol "Connector_Generic:Conn_02x10_Odd_Even"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
@@ -2660,7 +2660,7 @@
 					)
 				)
 			)
-			(property "Value" "Conn_02x10_Counter_Clockwise"
+			(property "Value" "Conn_02x10_Odd_Even"
 				(at 1.27 -15.24 0)
 				(effects
 					(font
@@ -2686,7 +2686,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, double row, 02x10, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, double row, 02x10, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2713,7 +2713,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_02x10_Counter_Clockwise_1_1"
+			(symbol "Conn_02x10_Odd_Even_1_1"
 				(rectangle
 					(start -1.27 -12.573)
 					(end 0 -12.827)
@@ -2964,7 +2964,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -12.7 0)
+					(at 7.62 0 180)
 					(length 3.81)
 					(name "Pin_10"
 						(effects
@@ -2982,7 +2982,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -12.7 180)
+					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_11"
 						(effects
@@ -3000,7 +3000,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -10.16 180)
+					(at 7.62 -2.54 180)
 					(length 3.81)
 					(name "Pin_12"
 						(effects
@@ -3018,7 +3018,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -7.62 180)
+					(at -5.08 -5.08 0)
 					(length 3.81)
 					(name "Pin_13"
 						(effects
@@ -3054,7 +3054,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -2.54 180)
+					(at -5.08 -7.62 0)
 					(length 3.81)
 					(name "Pin_15"
 						(effects
@@ -3072,7 +3072,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 0 180)
+					(at 7.62 -7.62 180)
 					(length 3.81)
 					(name "Pin_16"
 						(effects
@@ -3090,7 +3090,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 2.54 180)
+					(at -5.08 -10.16 0)
 					(length 3.81)
 					(name "Pin_17"
 						(effects
@@ -3108,7 +3108,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 5.08 180)
+					(at 7.62 -10.16 180)
 					(length 3.81)
 					(name "Pin_18"
 						(effects
@@ -3126,7 +3126,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 7.62 180)
+					(at -5.08 -12.7 0)
 					(length 3.81)
 					(name "Pin_19"
 						(effects
@@ -3144,7 +3144,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 7.62 0)
+					(at 7.62 10.16 180)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -3162,7 +3162,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 10.16 180)
+					(at 7.62 -12.7 180)
 					(length 3.81)
 					(name "Pin_20"
 						(effects
@@ -3180,7 +3180,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 5.08 0)
+					(at -5.08 7.62 0)
 					(length 3.81)
 					(name "Pin_3"
 						(effects
@@ -3198,7 +3198,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 2.54 0)
+					(at 7.62 7.62 180)
 					(length 3.81)
 					(name "Pin_4"
 						(effects
@@ -3216,7 +3216,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 5.08 0)
 					(length 3.81)
 					(name "Pin_5"
 						(effects
@@ -3234,7 +3234,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at 7.62 5.08 180)
 					(length 3.81)
 					(name "Pin_6"
 						(effects
@@ -3252,7 +3252,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -5.08 0)
+					(at -5.08 2.54 0)
 					(length 3.81)
 					(name "Pin_7"
 						(effects
@@ -3270,7 +3270,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -7.62 0)
+					(at 7.62 2.54 180)
 					(length 3.81)
 					(name "Pin_8"
 						(effects
@@ -3288,7 +3288,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -10.16 0)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_9"
 						(effects
@@ -3459,6 +3459,286 @@
 				)
 			)
 			(symbol "TEC2-4810WI_1_1"
+				(pin power_in line
+					(at -12.7 -5.08 0)
+					(length 2.54)
+					(name "-VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -12.7 5.08 0)
+					(length 2.54)
+					(name "+VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 0 0)
+					(length 2.54)
+					(name "ON/~{OFF}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 10.16 2.54 180)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 12.7 5.08 180)
+					(length 2.54)
+					(name "+VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 12.7 -5.08 180)
+					(length 2.54)
+					(name "-VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 10.16 0 180)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Converter_DCDC:TEC2-4812WI"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -8.89 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TEC2-4812WI"
+				(at 10.16 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" "Converter_DCDC:Converter_DCDC_TRACO_TMR-xxxx_THT"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.tracopower.com/products/tec2wi.pdf"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "167mA Regulated 2W DC/DC converter with 1.5kV isolation, 18V-75V input, 12V fixed Output Voltage, SIP-8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Traco isolated isolation dc-dc converter transformer"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Converter*DCDC*TRACO*TMR*xxxx*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TEC2-4812WI_0_1"
+				(rectangle
+					(start -10.16 7.62)
+					(end 10.16 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy 0 -6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 5.08) (xy 0 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 7.62) (xy 0 6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TEC2-4812WI_1_1"
 				(pin power_in line
 					(at -12.7 -5.08 0)
 					(length 2.54)
@@ -4070,304 +4350,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Regulator_Switching:TMR_1-4812"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -8.89 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TMR_1-4812"
-				(at 10.16 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Footprint" "Converter_DCDC:Converter_DCDC_TRACO_TMR-1-xxxx_Single_THT"
-				(at 0 -8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://assets.tracopower.com/TMR1/documents/tmr1-datasheet.pdf"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "83mA Regulated 1W DC/DC converter with 1.5kV isolation, 36V-75V input, 12V fixed Output Voltage, SIP-6"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Murata isolated isolation dc-dc converter transformer"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Converter*DCDC*TRACO*TMR?1*Single*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TMR_1-4812_0_1"
-				(rectangle
-					(start -10.16 7.62)
-					(end 10.16 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -7.62) (xy -1.27 -6.35)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -5.08) (xy -1.27 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 2.54) (xy -1.27 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 5.08) (xy -1.27 6.35)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -5.08) (xy 0 -6.35)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 5.08) (xy 0 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 7.62) (xy 0 6.35)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TMR_1-4812_1_1"
-				(pin power_in line
-					(at -12.7 -5.08 0)
-					(length 2.54)
-					(name "-VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -12.7 5.08 0)
-					(length 2.54)
-					(name "+VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 12.7 5.08 180)
-					(length 2.54)
-					(name "+VOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 12.7 -5.08 180)
-					(length 2.54)
-					(name "-VOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5312,6 +5294,10 @@
 		(uuid "b1611049-e050-4a3a-9bbb-798bff23fc88")
 	)
 	(no_connect
+		(at 331.47 203.2)
+		(uuid "b20ba28d-64e6-48dc-bbe0-26fecd55327d")
+	)
+	(no_connect
 		(at 232.41 271.78)
 		(uuid "eb6bae7a-3f0c-4828-a355-4e7211ec0c29")
 	)
@@ -5367,7 +5353,7 @@
 	)
 	(wire
 		(pts
-			(xy 367.03 201.93) (xy 361.95 201.93)
+			(xy 367.03 201.93) (xy 363.22 201.93)
 		)
 		(stroke
 			(width 0)
@@ -5547,7 +5533,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 204.47) (xy 86.36 200.66)
+			(xy 86.36 200.66) (xy 86.36 204.47)
 		)
 		(stroke
 			(width 0)
@@ -5567,7 +5553,7 @@
 	)
 	(wire
 		(pts
-			(xy 361.95 204.47) (xy 367.03 204.47)
+			(xy 363.22 204.47) (xy 367.03 204.47)
 		)
 		(stroke
 			(width 0)
@@ -5767,7 +5753,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 99.06) (xy 203.2 99.06)
+			(xy 219.71 63.5) (xy 203.2 63.5)
 		)
 		(stroke
 			(width 0)
@@ -5987,7 +5973,7 @@
 	)
 	(wire
 		(pts
-			(xy 361.95 208.28) (xy 354.33 208.28)
+			(xy 363.22 208.28) (xy 356.87 208.28)
 		)
 		(stroke
 			(width 0)
@@ -6187,7 +6173,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 96.52) (xy 187.96 96.52)
+			(xy 176.53 60.96) (xy 187.96 60.96)
 		)
 		(stroke
 			(width 0)
@@ -6237,7 +6223,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 101.6) (xy 187.96 101.6)
+			(xy 176.53 66.04) (xy 187.96 66.04)
 		)
 		(stroke
 			(width 0)
@@ -6317,7 +6303,7 @@
 	)
 	(wire
 		(pts
-			(xy 323.85 198.12) (xy 328.93 198.12)
+			(xy 323.85 198.12) (xy 331.47 198.12)
 		)
 		(stroke
 			(width 0)
@@ -6447,7 +6433,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 48.26) (xy 187.96 48.26)
+			(xy 176.53 101.6) (xy 187.96 101.6)
 		)
 		(stroke
 			(width 0)
@@ -6787,7 +6773,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 66.04) (xy 187.96 66.04)
+			(xy 176.53 83.82) (xy 187.96 83.82)
 		)
 		(stroke
 			(width 0)
@@ -6807,7 +6793,7 @@
 	)
 	(wire
 		(pts
-			(xy 361.95 204.47) (xy 361.95 208.28)
+			(xy 363.22 204.47) (xy 363.22 208.28)
 		)
 		(stroke
 			(width 0)
@@ -6837,7 +6823,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 43.18) (xy 187.96 43.18)
+			(xy 176.53 96.52) (xy 187.96 96.52)
 		)
 		(stroke
 			(width 0)
@@ -7387,7 +7373,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 45.72) (xy 203.2 45.72)
+			(xy 219.71 99.06) (xy 203.2 99.06)
 		)
 		(stroke
 			(width 0)
@@ -7397,7 +7383,7 @@
 	)
 	(wire
 		(pts
-			(xy 361.95 198.12) (xy 354.33 198.12)
+			(xy 363.22 198.12) (xy 356.87 198.12)
 		)
 		(stroke
 			(width 0)
@@ -7487,7 +7473,7 @@
 	)
 	(wire
 		(pts
-			(xy 361.95 201.93) (xy 361.95 198.12)
+			(xy 363.22 198.12) (xy 363.22 201.93)
 		)
 		(stroke
 			(width 0)
@@ -7577,7 +7563,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 83.82) (xy 187.96 83.82)
+			(xy 176.53 48.26) (xy 187.96 48.26)
 		)
 		(stroke
 			(width 0)
@@ -7627,7 +7613,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 78.74) (xy 187.96 78.74)
+			(xy 176.53 43.18) (xy 187.96 43.18)
 		)
 		(stroke
 			(width 0)
@@ -7677,7 +7663,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 63.5) (xy 203.2 63.5)
+			(xy 219.71 81.28) (xy 203.2 81.28)
 		)
 		(stroke
 			(width 0)
@@ -7787,7 +7773,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 60.96) (xy 187.96 60.96)
+			(xy 176.53 78.74) (xy 187.96 78.74)
 		)
 		(stroke
 			(width 0)
@@ -7797,7 +7783,7 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 208.28) (xy 323.85 208.28)
+			(xy 323.85 208.28) (xy 331.47 208.28)
 		)
 		(stroke
 			(width 0)
@@ -7857,7 +7843,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 177.8) (xy 68.58 180.34)
+			(xy 68.58 180.34) (xy 68.58 177.8)
 		)
 		(stroke
 			(width 0)
@@ -7957,7 +7943,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 81.28) (xy 203.2 81.28)
+			(xy 219.71 45.72) (xy 203.2 45.72)
 		)
 		(stroke
 			(width 0)
@@ -15371,7 +15357,7 @@
 		(uuid "0e395023-8a0d-4399-bac8-66d340b187a8")
 	)
 	(label "GPIO2_ADC"
-		(at 219.71 63.5 180)
+		(at 219.71 81.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15461,7 +15447,7 @@
 		(uuid "3333f8cc-65aa-4238-a022-bf589e811b10")
 	)
 	(label "SENS_3"
-		(at 176.53 60.96 0)
+		(at 176.53 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15471,7 +15457,7 @@
 		(uuid "3857d628-fba8-4d5d-9b13-9d771c44c0b5")
 	)
 	(label "SENS_6"
-		(at 176.53 83.82 0)
+		(at 176.53 48.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15551,7 +15537,7 @@
 		(uuid "495e28da-b68f-41fa-90e4-9453f41905bd")
 	)
 	(label "SENS_2"
-		(at 176.53 48.26 0)
+		(at 176.53 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15641,7 +15627,7 @@
 		(uuid "7ddf28f1-8c59-4541-9171-6f2be45c1df2")
 	)
 	(label "GPIO3_ADC"
-		(at 219.71 81.28 180)
+		(at 219.71 45.72 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15811,7 +15797,7 @@
 		(uuid "b06b74b0-6d1c-48f9-8544-8dc8402c50e3")
 	)
 	(label "SENS_8"
-		(at 176.53 101.6 0)
+		(at 176.53 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15821,7 +15807,7 @@
 		(uuid "b11918a7-a00c-4f3d-9b30-1c7478383d73")
 	)
 	(label "GPIO1_ADC"
-		(at 219.71 45.72 180)
+		(at 219.71 99.06 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15831,7 +15817,7 @@
 		(uuid "b2d2892c-9625-4786-bf3f-d1318e4b6efb")
 	)
 	(label "SENS_4"
-		(at 176.53 66.04 0)
+		(at 176.53 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15861,7 +15847,7 @@
 		(uuid "ca83505b-2e32-4c8d-9664-b9b96a2950ee")
 	)
 	(label "GPIO6_ADC"
-		(at 219.71 99.06 180)
+		(at 219.71 63.5 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15891,7 +15877,7 @@
 		(uuid "d164c44b-dff2-4842-88d9-8c9573e89fa1")
 	)
 	(label "SENS_7"
-		(at 176.53 96.52 0)
+		(at 176.53 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15911,7 +15897,7 @@
 		(uuid "d464acf8-bf9d-4519-9dcb-2634b564cff2")
 	)
 	(label "SENS_1"
-		(at 176.53 43.18 0)
+		(at 176.53 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16011,7 +15997,7 @@
 		(uuid "f32fdf3f-282b-4d55-bbc6-fcac5bdd6ce6")
 	)
 	(label "SENS_5"
-		(at 176.53 78.74 0)
+		(at 176.53 43.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16513,6 +16499,89 @@
 			(project "BMS-Mux-PCB"
 				(path "/a2925814-5dc3-4888-bdb8-1bf38cbb6bf2"
 					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Converter_DCDC:TEC2-4812WI")
+		(at 344.17 203.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "16b908fe-8c0b-4357-b598-f3a9c0ed1439")
+		(property "Reference" "U3"
+			(at 344.17 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TEC2-4812WI"
+			(at 344.17 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Converter_DCDC:Converter_DCDC_TRACO_TMR-xxxx_THT"
+			(at 344.17 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tracopower.com/products/tec2wi.pdf"
+			(at 344.17 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "167mA Regulated 2W DC/DC converter with 1.5kV isolation, 18V-75V input, 12V fixed Output Voltage, SIP-8"
+			(at 344.17 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "f084dea8-96c4-4466-bb7a-b9e16aed6bee")
+		)
+		(pin "2"
+			(uuid "9dd6bc3a-a3ca-4e5b-bb8c-737b0af8101c")
+		)
+		(pin "1"
+			(uuid "afdcf513-6417-4a6b-a865-dcd3328972af")
+		)
+		(pin "3"
+			(uuid "8141fac3-2350-4e38-be1a-12c463597978")
+		)
+		(pin "5"
+			(uuid "e3d3bc80-ad8c-4f91-8d21-eaccee38d7f1")
+		)
+		(pin "7"
+			(uuid "d0737029-d95e-4d02-92cb-c5ede999746b")
+		)
+		(pin "8"
+			(uuid "b795d59d-a6a5-4e41-80b4-ecd77571699c")
+		)
+		(instances
+			(project ""
+				(path "/a2925814-5dc3-4888-bdb8-1bf38cbb6bf2"
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -18499,80 +18568,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Regulator_Switching:TMR_1-4812")
-		(at 341.63 203.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "64b59c88-5828-402c-b448-97a6b74e0ea2")
-		(property "Reference" "U3"
-			(at 341.63 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TMR_1-4812"
-			(at 341.63 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Converter_DCDC:Converter_DCDC_TRACO_TMR-1-xxxx_Single_THT"
-			(at 341.63 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://assets.tracopower.com/TMR1/documents/tmr1-datasheet.pdf"
-			(at 341.63 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "83mA Regulated 1W DC/DC converter with 1.5kV isolation, 36V-75V input, 12V fixed Output Voltage, SIP-6"
-			(at 341.63 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "15678acd-6db9-4db3-aac4-7850ded60782")
-		)
-		(pin "1"
-			(uuid "d8ea48d6-f9b1-4208-8af5-2dbf2f7270ac")
-		)
-		(pin "2"
-			(uuid "a3b67d61-cee6-44f6-afb9-ad1a7de3ba93")
-		)
-		(pin "6"
-			(uuid "740193b5-6d13-4907-867c-81893aaa9f63")
-		)
-		(instances
-			(project ""
-				(path "/a2925814-5dc3-4888-bdb8-1bf38cbb6bf2"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "74xx:74CBTLV3257")
 		(at 195.58 81.28 0)
 		(mirror y)
@@ -18679,6 +18674,121 @@
 				(path "/a2925814-5dc3-4888-bdb8-1bf38cbb6bf2"
 					(reference "U1")
 					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x09_Top_Bottom")
+		(at 77.47 190.5 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "700cb9b1-621f-40bb-873f-d54887c1cc86")
+		(property "Reference" "J3"
+			(at 76.2 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_02x09_Top_Bottom"
+			(at 76.2 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BMS-Mux-footprints:Molex_Micro-Fit_3.0_43045-1800_2x09_P3.00mm_Horizontal"
+			(at 77.47 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x09, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 77.47 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "1ce211c9-db43-485f-b2dd-c6ccbb7938bc")
+		)
+		(pin "2"
+			(uuid "69ec5382-141e-42f4-ae3f-f01759fbb765")
+		)
+		(pin "9"
+			(uuid "76647ca8-62e3-4c4a-a281-f16a94fda822")
+		)
+		(pin "16"
+			(uuid "2d2e365d-f479-4069-a8d1-ef8971db127b")
+		)
+		(pin "6"
+			(uuid "cf675f4f-11ae-4624-8c30-086395c4b62e")
+		)
+		(pin "7"
+			(uuid "c2321c29-7cab-432e-9cec-292aa4ae7d49")
+		)
+		(pin "15"
+			(uuid "58ec2393-cdcc-47cd-9494-edc7e225d262")
+		)
+		(pin "14"
+			(uuid "57047916-abb4-4fce-b286-0428e88a469d")
+		)
+		(pin "11"
+			(uuid "6bac4db1-5daf-43b4-aa9e-9e562cb5635f")
+		)
+		(pin "12"
+			(uuid "7f68eb64-e2a7-4744-b639-90c40f56949b")
+		)
+		(pin "8"
+			(uuid "ac8004f3-71f4-4554-957e-f239931640e1")
+		)
+		(pin "3"
+			(uuid "e1afcf66-edc0-428a-b3ae-aaa62207ed4f")
+		)
+		(pin "10"
+			(uuid "2033d0c0-ba90-4038-9fcd-ac2eb5cabb5e")
+		)
+		(pin "17"
+			(uuid "aa8f7b06-778a-4974-b7a9-90813eee40ce")
+		)
+		(pin "18"
+			(uuid "ff1d7103-c1be-4589-bc6b-42909df4da3a")
+		)
+		(pin "4"
+			(uuid "470ab010-a5f9-457e-8e45-a024f1873b15")
+		)
+		(pin "13"
+			(uuid "8476c883-9d98-4069-8d4e-b9557371a68a")
+		)
+		(pin "1"
+			(uuid "3322b705-437b-4ed3-a13a-6c83a73185b5")
+		)
+		(instances
+			(project ""
+				(path "/a2925814-5dc3-4888-bdb8-1bf38cbb6bf2"
+					(reference "J3")
+					(unit 1)
 				)
 			)
 		)
@@ -18980,7 +19090,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0200_1x02_P3.00mm_Horizontal"
+		(property "Footprint" "BMS-Mux-footprints:Molex_Micro-Fit_3.0_43650-0200_1x02_P3.00mm_Horizontal"
 			(at 372.11 201.93 0)
 			(effects
 				(font
@@ -20066,7 +20176,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-1600_2x08_P3.00mm_Horizontal"
+		(property "Footprint" "BMS-Mux-footprints:Molex_Micro-Fit_3.0_43045-1600_2x08_P3.00mm_Horizontal"
 			(at 35.56 55.88 0)
 			(effects
 				(font
@@ -21187,7 +21297,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-1600_2x08_P3.00mm_Horizontal"
+		(property "Footprint" "BMS-Mux-footprints:Molex_Micro-Fit_3.0_43045-1600_2x08_P3.00mm_Horizontal"
 			(at 35.56 106.68 0)
 			(effects
 				(font
@@ -21795,32 +21905,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_02x09_Counter_Clockwise")
-		(at 77.47 190.5 180)
+		(lib_id "Connector_Generic:Conn_02x10_Odd_Even")
+		(at 62.23 250.19 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c4b08da1-c9a0-4593-ae1d-5414d979476d")
-		(property "Reference" "J3"
-			(at 76.2 207.01 0)
+		(uuid "c7de95dd-1d26-4e79-8443-c786c8f83192")
+		(property "Reference" "J6"
+			(at 60.96 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Conn_02x09_Counter_Clockwise"
-			(at 64.516 204.216 0)
+		(property "Value" "Conn_02x10_Odd_Even"
+			(at 60.96 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-1800_2x09_P3.00mm_Horizontal"
-			(at 77.47 190.5 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical"
+			(at 62.23 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21829,7 +21940,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 77.47 190.5 0)
+			(at 62.23 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21837,8 +21948,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x09, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 77.47 190.5 0)
+		(property "Description" "Generic connector, double row, 02x10, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 62.23 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21846,64 +21957,70 @@
 				(hide yes)
 			)
 		)
-		(pin "5"
-			(uuid "69c05517-9d6d-4d3a-a493-fdf0263bd415")
-		)
-		(pin "3"
-			(uuid "d41b695e-db5d-4fd8-968e-d2ad30e8edfd")
-		)
-		(pin "18"
-			(uuid "d402d575-ae6f-4373-8030-f53be3457731")
-		)
-		(pin "4"
-			(uuid "23adb2d9-9b1e-453a-94b8-fa69172a7c00")
+		(pin "20"
+			(uuid "664ba672-3814-4ec3-9fac-54c04ac2309f")
 		)
 		(pin "2"
-			(uuid "07e2766f-8afb-4422-a4a5-a26a0cb0eece")
-		)
-		(pin "10"
-			(uuid "5d74c836-7baa-4858-b0ec-72c6d0630197")
-		)
-		(pin "1"
-			(uuid "817a5935-6cc5-4745-b7fc-beeabc704579")
-		)
-		(pin "7"
-			(uuid "ddc22264-65a2-4a3f-b5aa-c570cf3a58d1")
-		)
-		(pin "12"
-			(uuid "b3eabc4f-cf12-4e5a-acaf-b68e290f7da5")
-		)
-		(pin "13"
-			(uuid "e68d959e-800a-4f60-8fd1-a6ebe8621e5d")
-		)
-		(pin "14"
-			(uuid "28f90b9c-48e8-43d4-9ca1-2a06d073a96e")
-		)
-		(pin "15"
-			(uuid "beb9effa-3f68-4512-a05a-41b5111c4eda")
-		)
-		(pin "9"
-			(uuid "5b2cab19-ef2f-4892-9fe8-75fef19bd8cd")
-		)
-		(pin "17"
-			(uuid "0bc04d2d-3f46-4e5b-9f7a-7679514e99c8")
-		)
-		(pin "16"
-			(uuid "cd7dc7bc-7329-4b0e-a5f8-8d13f642de1e")
+			(uuid "dff7a0c0-7b63-46cc-94fe-cf9cf0d541a7")
 		)
 		(pin "6"
-			(uuid "af49d7de-bab6-4c4a-a8a9-a9cba88322dc")
+			(uuid "43d34f82-7839-4103-a05b-bfe53d7280d2")
 		)
-		(pin "8"
-			(uuid "435300bf-7c88-49da-9ea1-d9e2b283d4be")
+		(pin "16"
+			(uuid "433a5c83-cbe5-4dc0-a4a6-56bdeebe1ae1")
+		)
+		(pin "13"
+			(uuid "f42dca15-86a7-484d-ad8d-03654176ad1c")
+		)
+		(pin "19"
+			(uuid "c6a32877-ca98-4713-aca7-60caa9d4d7b6")
+		)
+		(pin "9"
+			(uuid "f3665ef5-963f-45bb-b958-39c8413f26d4")
+		)
+		(pin "18"
+			(uuid "370d19cf-21c9-4dbd-83de-7f3b8043db9d")
+		)
+		(pin "17"
+			(uuid "b37aa190-e634-472c-bd67-3546bf141124")
+		)
+		(pin "4"
+			(uuid "0c37c091-cabb-48c2-bfff-d64ab8aee533")
+		)
+		(pin "14"
+			(uuid "8609d6ca-94a5-4a6d-9ffe-e529a53f87a9")
 		)
 		(pin "11"
-			(uuid "2416f9de-5f53-4909-83ab-c446281802bf")
+			(uuid "c8f68634-a887-4ce9-9eb6-3cf6682dfd13")
+		)
+		(pin "10"
+			(uuid "9c474141-1424-4452-8569-9638ca140cf8")
+		)
+		(pin "5"
+			(uuid "ab0dd93e-3c76-422d-b91c-5984c835a819")
+		)
+		(pin "7"
+			(uuid "38c1b47d-a85d-4c6d-b68e-c5cd9929df9b")
+		)
+		(pin "8"
+			(uuid "6a3c26d7-19e9-4c1f-a7ca-9b82eca3218c")
+		)
+		(pin "15"
+			(uuid "b4c6fb58-e587-4c18-9ff6-4e4f96dca248")
+		)
+		(pin "3"
+			(uuid "45667f97-c9c6-47a5-8ec5-f69f0046cf9b")
+		)
+		(pin "1"
+			(uuid "c646e04b-ee67-466e-9b9f-1e234c69604a")
+		)
+		(pin "12"
+			(uuid "827e0dc6-5926-42d6-8871-c75f1714566d")
 		)
 		(instances
 			(project ""
 				(path "/a2925814-5dc3-4888-bdb8-1bf38cbb6bf2"
-					(reference "J3")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -23004,128 +23121,6 @@
 			(project "BMS-Mux-PCB"
 				(path "/a2925814-5dc3-4888-bdb8-1bf38cbb6bf2"
 					(reference "#PWR033")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_02x10_Counter_Clockwise")
-		(at 59.69 250.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ee259afe-9387-45bf-8e5f-7abb3ec0f147")
-		(property "Reference" "J6"
-			(at 60.96 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_02x10_Counter_Clockwise"
-			(at 60.96 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical"
-			(at 59.69 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 59.69 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, double row, 02x10, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 59.69 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "c2d04e1f-f1f9-44b3-b5df-9070ecf11a36")
-		)
-		(pin "8"
-			(uuid "f8c8eb96-e033-4b44-a357-e4c1bc1e97ee")
-		)
-		(pin "6"
-			(uuid "54e81c18-2343-400d-8bc0-0803ae137529")
-		)
-		(pin "3"
-			(uuid "7886d666-4bda-4ec0-8ac5-c5b4f4c1f751")
-		)
-		(pin "2"
-			(uuid "6185ccd6-c3cf-4dda-b2d9-3392ae350ff5")
-		)
-		(pin "18"
-			(uuid "acd5008d-4528-48a4-a6a8-24e62a8af9e6")
-		)
-		(pin "1"
-			(uuid "3826289c-314c-4192-8496-7cc9676ab6d3")
-		)
-		(pin "13"
-			(uuid "4d01cd2f-386f-4d74-bf50-9cdb72c2926b")
-		)
-		(pin "20"
-			(uuid "b67e0358-23a4-434b-b005-b3209243025c")
-		)
-		(pin "9"
-			(uuid "f79999c0-a73e-4189-a9b7-edbf9bb547a6")
-		)
-		(pin "19"
-			(uuid "14b6cf5e-1720-45b7-995f-7da0125b7957")
-		)
-		(pin "14"
-			(uuid "574a0e85-793b-4a7d-a4c2-fc5df24e215b")
-		)
-		(pin "4"
-			(uuid "e952d3d2-2d05-4e77-9e14-75ffe234e462")
-		)
-		(pin "5"
-			(uuid "dde31e3f-4a37-48d1-99b8-f8694471d067")
-		)
-		(pin "16"
-			(uuid "d9e535ff-bc1a-49a2-862e-c3b57f3c0d60")
-		)
-		(pin "15"
-			(uuid "d794999e-596d-4397-99d5-2273ba02f3de")
-		)
-		(pin "12"
-			(uuid "3f6ea37f-5023-4942-85a3-239a09abd0ea")
-		)
-		(pin "17"
-			(uuid "b9877df7-11f9-47f2-8f5b-969ba382e97a")
-		)
-		(pin "10"
-			(uuid "5f79aa0c-60c7-4911-b1e7-2e2723ab2df5")
-		)
-		(pin "11"
-			(uuid "e4468766-e805-4127-8a49-60674fb2bf1a")
-		)
-		(instances
-			(project ""
-				(path "/a2925814-5dc3-4888-bdb8-1bf38cbb6bf2"
-					(reference "J6")
 					(unit 1)
 				)
 			)
