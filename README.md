@@ -8,6 +8,8 @@ Designed in Kicad V8
 ![alt text](<docs/3D View V1.png>)
 
 
+![alt text](image.png)
+
 ### [Schematic](<docs/Schematic V1.pdf>)
 
 ### [Layout](<docs/PCB Layout V1.pdf>)

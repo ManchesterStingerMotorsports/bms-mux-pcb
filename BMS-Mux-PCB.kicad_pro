@@ -480,7 +480,12 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Default",
+        "pattern": "/GPIO5_SW"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -490,7 +495,7 @@
       "plot": "",
       "pos_files": "docs/",
       "specctra_dsn": "",
-      "step": "BMS-Mux-PCB.step",
+      "step": "docs/BMS-Mux-PCB.step",
       "svg": "",
       "vrml": ""
     },

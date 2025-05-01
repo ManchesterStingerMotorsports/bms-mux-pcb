@@ -4,6 +4,10 @@
 	(generator_version "8.0")
 	(uuid "a2925814-5dc3-4888-bdb8-1bf38cbb6bf2")
 	(paper "A3")
+	(title_block
+		(title "BMS MUX PCB")
+		(rev "1")
+	)
 	(lib_symbols
 		(symbol "74xx:74CBTLV3257"
 			(exclude_from_sim no)
@@ -15168,9 +15172,9 @@
 		)
 		(uuid "34eebca4-c8bd-4e41-ab9b-30933ac36f63")
 	)
-	(text "ADBMS2950 EVAL SCHEMATIC"
+	(text "ADBMS6830 EVAL SCHEMATIC"
 		(exclude_from_sim no)
-		(at 135.128 231.902 0)
+		(at 134.62 231.902 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15336,7 +15340,7 @@
 		)
 		(uuid "051add3c-2c94-406d-ba0b-d923cd3b36d4")
 	)
-	(label "GPIO5_SW"
+	(label "GPIO4_SW"
 		(at 38.1 247.65 0)
 		(effects
 			(font
@@ -15606,7 +15610,7 @@
 		)
 		(uuid "55b6eafb-6eef-4f9d-8360-cdeb6a74ef95")
 	)
-	(label "GPIO5_SW"
+	(label "GPIO4_SW"
 		(at 326.39 110.49 0)
 		(effects
 			(font
@@ -15896,7 +15900,7 @@
 		)
 		(uuid "ad593b2f-b4c1-448e-a399-dc99e3d385ae")
 	)
-	(label "GPIO6_EN"
+	(label "GPIO5_EN"
 		(at 170.18 217.17 0)
 		(effects
 			(font
@@ -15906,7 +15910,7 @@
 		)
 		(uuid "b01b6ce9-8cf2-421d-b2e7-54ad53b1f487")
 	)
-	(label "GPIO6_EN"
+	(label "GPIO5_EN"
 		(at 38.1 250.19 0)
 		(effects
 			(font
