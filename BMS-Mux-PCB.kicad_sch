@@ -5086,6 +5086,12 @@
 		(uuid "713ae854-fbef-4c6e-a44b-b6536700bc99")
 	)
 	(junction
+		(at 523.24 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7251b148-cbc8-4dfd-950a-aa85381d66f8")
+	)
+	(junction
 		(at 49.53 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5170,6 +5176,12 @@
 		(uuid "9ba2078c-4d05-48e8-bf37-05ac9e5cd428")
 	)
 	(junction
+		(at 487.68 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9c347082-5222-44fa-b724-721761c2348c")
+	)
+	(junction
 		(at 80.01 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5198,6 +5210,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ccd921bf-15d0-41e9-9aa3-df36093925fa")
+	)
+	(junction
+		(at 523.24 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d24c042b-4911-442e-8f88-958392c58b96")
+	)
+	(junction
+		(at 529.59 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d3daf49c-84d4-43ab-9e48-1ea301fd2763")
 	)
 	(junction
 		(at 116.84 160.02)
@@ -5394,6 +5418,16 @@
 			(type default)
 		)
 		(uuid "069e5d56-5d1b-4259-9c05-839b4d003f07")
+	)
+	(wire
+		(pts
+			(xy 487.68 72.39) (xy 487.68 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a4c05f6-e8a5-40ed-9d28-c91ad3f7b4ec")
 	)
 	(wire
 		(pts
@@ -5767,6 +5801,16 @@
 	)
 	(wire
 		(pts
+			(xy 529.59 62.23) (xy 529.59 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29008d1b-6887-4ae4-aebd-1266e29a3cfd")
+	)
+	(wire
+		(pts
 			(xy 227.33 135.89) (xy 213.36 135.89)
 		)
 		(stroke
@@ -5774,6 +5818,16 @@
 			(type default)
 		)
 		(uuid "29f8260a-686e-4c48-af4e-b331d688cb25")
+	)
+	(wire
+		(pts
+			(xy 529.59 72.39) (xy 529.59 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a735a61-e601-49a1-a25b-fca5659f404c")
 	)
 	(wire
 		(pts
@@ -6164,6 +6218,16 @@
 			(type default)
 		)
 		(uuid "520680ec-9725-4d8e-abd2-b023ea76fd8c")
+	)
+	(wire
+		(pts
+			(xy 523.24 113.03) (xy 523.24 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5239a357-9b7d-4cc5-88e7-28603857e5c8")
 	)
 	(wire
 		(pts
@@ -6567,6 +6631,16 @@
 	)
 	(wire
 		(pts
+			(xy 570.23 121.92) (xy 572.77 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7774d7fd-c0aa-4635-a815-9fb7b39990d5")
+	)
+	(wire
+		(pts
 			(xy 30.48 50.8) (xy 27.94 50.8)
 		)
 		(stroke
@@ -6607,6 +6681,16 @@
 	)
 	(wire
 		(pts
+			(xy 523.24 121.92) (xy 523.24 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b040be3-e37c-4b54-a64c-fc1b9ee1a87d")
+	)
+	(wire
+		(pts
 			(xy 38.1 260.35) (xy 54.61 260.35)
 		)
 		(stroke
@@ -6624,6 +6708,16 @@
 			(type default)
 		)
 		(uuid "7bb248af-432e-42ca-a436-a2dc7ed5e142")
+	)
+	(wire
+		(pts
+			(xy 523.24 110.49) (xy 523.24 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bfccadb-c395-45d7-85bf-cc0ec49b3881")
 	)
 	(wire
 		(pts
@@ -6647,6 +6741,16 @@
 	)
 	(wire
 		(pts
+			(xy 570.23 111.76) (xy 572.77 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "811f21e1-a6aa-42ae-983c-483ddf6a686c")
+	)
+	(wire
+		(pts
 			(xy 236.22 80.01) (xy 247.65 80.01)
 		)
 		(stroke
@@ -6664,6 +6768,16 @@
 			(type default)
 		)
 		(uuid "848a0849-4ee9-4b8e-9a3c-427ce6b8f899")
+	)
+	(wire
+		(pts
+			(xy 549.91 72.39) (xy 529.59 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "848b3a6e-b4b5-434c-924e-e1b29b03d640")
 	)
 	(wire
 		(pts
@@ -6787,6 +6901,16 @@
 	)
 	(wire
 		(pts
+			(xy 529.59 87.63) (xy 529.59 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "931cff0b-5b24-4613-bbfb-ca17b0a58b32")
+	)
+	(wire
+		(pts
 			(xy 87.63 170.18) (xy 100.33 170.18)
 		)
 		(stroke
@@ -6794,6 +6918,16 @@
 			(type default)
 		)
 		(uuid "93e72479-c4c8-440c-93d3-79780beaab97")
+	)
+	(wire
+		(pts
+			(xy 523.24 111.76) (xy 544.83 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94ed3fe5-e721-4c6e-8638-4bb203b36418")
 	)
 	(wire
 		(pts
@@ -6897,6 +7031,16 @@
 	)
 	(wire
 		(pts
+			(xy 523.24 120.65) (xy 523.24 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b4b2b7b-4458-4c6d-b4bb-c40c5b7e6cd9")
+	)
+	(wire
+		(pts
 			(xy 265.43 123.19) (xy 265.43 127)
 		)
 		(stroke
@@ -6914,6 +7058,16 @@
 			(type default)
 		)
 		(uuid "9e8f289c-d871-463a-9d31-a4770eb40afa")
+	)
+	(wire
+		(pts
+			(xy 487.68 64.77) (xy 487.68 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fbad51c-5238-4651-bec4-68245b43dc87")
 	)
 	(wire
 		(pts
@@ -7124,6 +7278,16 @@
 			(type default)
 		)
 		(uuid "b18c8646-56ee-4ca2-a128-4380f63b319f")
+	)
+	(wire
+		(pts
+			(xy 504.19 80.01) (xy 521.97 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3587e6f-7e70-4ba1-b2c9-5f104c6d21ac")
 	)
 	(wire
 		(pts
@@ -7364,6 +7528,16 @@
 			(type default)
 		)
 		(uuid "c843e740-d785-4fd9-a419-d423086d3940")
+	)
+	(wire
+		(pts
+			(xy 529.59 72.39) (xy 529.59 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c87df6a1-f390-4eb0-abbd-0a4313a9d67f")
 	)
 	(wire
 		(pts
@@ -7697,6 +7871,26 @@
 	)
 	(wire
 		(pts
+			(xy 572.77 109.22) (xy 572.77 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2ae2561-b2a9-4064-836f-73d1250f9b85")
+	)
+	(wire
+		(pts
+			(xy 572.77 121.92) (xy 572.77 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e34ffb58-6c64-44f6-a95d-bfeae7543462")
+	)
+	(wire
+		(pts
 			(xy 87.63 193.04) (xy 100.33 193.04)
 		)
 		(stroke
@@ -7767,6 +7961,16 @@
 	)
 	(wire
 		(pts
+			(xy 459.74 80.01) (xy 487.68 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaa5dac3-e726-46c6-b6eb-daa9d81be554")
+	)
+	(wire
+		(pts
 			(xy 69.85 33.02) (xy 69.85 35.56)
 		)
 		(stroke
@@ -7774,6 +7978,16 @@
 			(type default)
 		)
 		(uuid "eae80e2a-428e-41e9-bc5a-73b4f2667268")
+	)
+	(wire
+		(pts
+			(xy 487.68 80.01) (xy 496.57 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb6135f9-14bd-4e4a-9fad-c167fed66e36")
 	)
 	(wire
 		(pts
@@ -7794,6 +8008,16 @@
 			(type default)
 		)
 		(uuid "f02cf724-88a9-4512-8298-f57a16d63fd3")
+	)
+	(wire
+		(pts
+			(xy 523.24 121.92) (xy 544.83 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0ffef44-cc9d-4e02-80fb-a5875fbacad2")
 	)
 	(wire
 		(pts
@@ -8032,6 +8256,30 @@
 			(type none)
 		)
 		(uuid 24989a2b-fa9e-40e9-8ccf-3e5cab0a2db0)
+	)
+	(rectangle
+		(start 513.08 50.8)
+		(end 580.39 133.35)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 65eba113-87ca-424a-ba45-96f4054510c1)
+	)
+	(rectangle
+		(start 448.31 50.8)
+		(end 508 93.98)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 875b8b1e-0b3b-4457-aa05-c25db8f8f180)
 	)
 	(rectangle
 		(start 27.94 138.43)
@@ -15149,6 +15397,28 @@
 			"MTk5+cKhjoIgCML74/8HnlvTROiOoAEAAAAASUVORK5CYII="
 		)
 	)
+	(text "40V to 67.8V"
+		(exclude_from_sim no)
+		(at 523.24 101.854 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "136f5c6c-6f0f-49ad-ba35-652d9d641a39")
+	)
+	(text "EVAL BOARD"
+		(exclude_from_sim no)
+		(at 456.184 54.102 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "184d5f63-ffd8-4e45-b1ad-76e8f4176e06")
+	)
 	(text "11K Ohm Pullup at IC PCB"
 		(exclude_from_sim no)
 		(at 330.708 105.918 0)
@@ -15218,6 +15488,16 @@
 		)
 		(uuid "6a1fbbe0-3415-45f7-ac25-bd8650a6816d")
 	)
+	(text "TO SWITCH PIN OF MUX\n(74CBTLV3257)"
+		(exclude_from_sim no)
+		(at 565.15 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6d72df6a-f59b-48b0-b573-d77fbd2bbaec")
+	)
 	(text "3.5 Pitch Conn"
 		(exclude_from_sim no)
 		(at 127.508 153.416 0)
@@ -15237,6 +15517,18 @@
 			)
 		)
 		(uuid "8b0b537d-eb85-4194-b553-624a248fff1f")
+	)
+	(text "MY PCB"
+		(exclude_from_sim no)
+		(at 572.262 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "977c85eb-f912-462b-9732-e31fd5615520")
 	)
 	(text "ADC + DIGITAL OUT INPUT"
 		(exclude_from_sim no)
@@ -15589,6 +15881,16 @@
 			(justify right bottom)
 		)
 		(uuid "495e28da-b68f-41fa-90e4-9453f41905bd")
+	)
+	(label "OPEN_DRAIN_GPIO"
+		(at 459.74 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4ed0b0cf-ff37-481e-ad39-3fe2199a28c0")
 	)
 	(label "BATT_13"
 		(at 74.93 168.91 180)
@@ -16040,6 +16342,16 @@
 		)
 		(uuid "d164c44b-dff2-4842-88d9-8c9573e89fa1")
 	)
+	(label "OUTPUT"
+		(at 549.91 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d1d7d35d-cbc4-4415-8beb-9354bab67231")
+	)
 	(label "SENS_7"
 		(at 176.53 78.74 0)
 		(effects
@@ -16463,6 +16775,71 @@
 			(project "BMS-Mux-PCB"
 				(path "/a2925814-5dc3-4888-bdb8-1bf38cbb6bf2"
 					(reference "F4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 523.24 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "05586910-90df-47d2-bd17-5ea9a557d336")
+		(property "Reference" "#PWR39"
+			(at 523.24 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+V_BAT"
+			(at 523.24 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 523.24 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 523.24 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 523.24 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "216730d2-a328-4536-80e6-01da09a14846")
+		)
+		(instances
+			(project "BMS-Mux-PCB"
+				(path "/a2925814-5dc3-4888-bdb8-1bf38cbb6bf2"
+					(reference "#PWR39")
 					(unit 1)
 				)
 			)
@@ -19219,6 +19596,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 572.77 124.46 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "25a7beb4-bf50-4ddf-a1ab-89b72efd8f2f")
+		(property "Reference" "#PWR42"
+			(at 572.77 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 572.77 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 572.77 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 572.77 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 572.77 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3afc3971-76a3-4cf6-bf12-fe5e60f6ab9e")
+		)
+		(instances
+			(project "BMS-Mux-PCB"
+				(path "/a2925814-5dc3-4888-bdb8-1bf38cbb6bf2"
+					(reference "#PWR42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 49.53 33.02 0)
 		(unit 1)
@@ -19890,6 +20335,269 @@
 		)
 	)
 	(symbol
+		(lib_id "Converter_DCDC:TEC2-4810WI")
+		(at 557.53 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "31fe1857-4fab-41f7-8ff1-e61186aed5bd")
+		(property "Reference" "U5"
+			(at 557.53 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TEC2-4810WI"
+			(at 557.53 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Converter_DCDC:Converter_DCDC_TRACO_TMR-xxxx_THT"
+			(at 557.53 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tracopower.com/products/tec2wi.pdf"
+			(at 557.53 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "500mA Regulated 2W DC/DC converter with 1.5kV isolation, 18V-75V input, 3.3V fixed Output Voltage, SIP-8"
+			(at 557.53 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Case/Size Code" ""
+			(at 557.53 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" ""
+			(at 557.53 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink1Description" ""
+			(at 557.53 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink1URL" ""
+			(at 557.53 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink2Description" ""
+			(at 557.53 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink2URL" ""
+			(at 557.53 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 557.53 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Input Voltage Max" ""
+			(at 557.53 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Input Voltage Min" ""
+			(at 557.53 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Length" ""
+			(at 557.53 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 557.53 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "TEC2-4810WI"
+			(at 557.53 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Match Code" ""
+			(at 557.53 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mount" ""
+			(at 557.53 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature Max" ""
+			(at 557.53 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature Min" ""
+			(at 557.53 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Output Current" ""
+			(at 557.53 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Output Voltage" ""
+			(at 557.53 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Packaging" ""
+			(at 557.53 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Width" ""
+			(at 557.53 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "d3b57bc7-9406-47d1-b62d-dd8952bfa0aa")
+		)
+		(pin "3"
+			(uuid "e4a7aecf-1350-4e8d-b675-4513bac212fe")
+		)
+		(pin "2"
+			(uuid "4019ae66-0f1c-4faa-b789-626ce03d25a0")
+		)
+		(pin "6"
+			(uuid "aa897367-2d00-40bc-904a-442be889c9c0")
+		)
+		(pin "1"
+			(uuid "7d61d3ae-3464-4ece-a1a7-83db4cb24897")
+		)
+		(pin "5"
+			(uuid "411666a5-46cb-4e1a-909b-1bcd55ab2a31")
+		)
+		(pin "8"
+			(uuid "f20adc46-9a18-4f1b-9f3b-d56c8365378a")
+		)
+		(instances
+			(project "BMS-Mux-PCB"
+				(path "/a2925814-5dc3-4888-bdb8-1bf38cbb6bf2"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_FET:BSS123")
 		(at 350.52 110.49 0)
 		(unit 1)
@@ -20140,6 +20848,322 @@
 			(project "BMS-Mux-PCB"
 				(path "/a2925814-5dc3-4888-bdb8-1bf38cbb6bf2"
 					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 529.59 66.04 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3a60ff9b-fb34-4ad1-a939-814821eae9f7")
+		(property "Reference" "R19"
+			(at 532.13 64.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "16k"
+			(at 532.13 67.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 531.368 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 529.59 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 529.59 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Case/Size Code" ""
+			(at 529.59 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" ""
+			(at 529.59 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink1Description" ""
+			(at 529.59 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink1URL" ""
+			(at 529.59 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink2Description" ""
+			(at 529.59 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink2URL" ""
+			(at 529.59 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 529.59 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Input Voltage Max" ""
+			(at 529.59 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Input Voltage Min" ""
+			(at 529.59 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Length" ""
+			(at 529.59 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 529.59 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "ERA-6AEB163V"
+			(at 529.59 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Match Code" ""
+			(at 529.59 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mount" ""
+			(at 529.59 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature Max" ""
+			(at 529.59 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature Min" ""
+			(at 529.59 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Output Current" ""
+			(at 529.59 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Output Voltage" ""
+			(at 529.59 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Packaging" ""
+			(at 529.59 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Width" ""
+			(at 529.59 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3038a4e3-0e89-478f-b809-9a2905f1c15f")
+		)
+		(pin "1"
+			(uuid "95c0d543-5d8b-4893-9ceb-beec4327d8e2")
+		)
+		(instances
+			(project "BMS-Mux-PCB"
+				(path "/a2925814-5dc3-4888-bdb8-1bf38cbb6bf2"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 487.68 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ab51939-874b-43a8-a948-e540291dd738")
+		(property "Reference" "#PWR43"
+			(at 487.68 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 487.68 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 487.68 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 487.68 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 487.68 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "024bdcf6-580f-4d18-9cec-188ce0f09495")
+		)
+		(instances
+			(project "BMS-Mux-PCB"
+				(path "/a2925814-5dc3-4888-bdb8-1bf38cbb6bf2"
+					(reference "#PWR43")
 					(unit 1)
 				)
 			)
@@ -21341,6 +22365,256 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 523.24 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "48108778-793b-41fc-818e-0a96a6fc28bb")
+		(property "Reference" "C5"
+			(at 527.05 115.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2u"
+			(at 527.05 118.1099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 524.2052 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 523.24 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 523.24 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Case/Size Code" ""
+			(at 523.24 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" ""
+			(at 523.24 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink1Description" ""
+			(at 523.24 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink1URL" ""
+			(at 523.24 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink2Description" ""
+			(at 523.24 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink2URL" ""
+			(at 523.24 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 523.24 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Input Voltage Max" ""
+			(at 523.24 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Input Voltage Min" ""
+			(at 523.24 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Length" ""
+			(at 523.24 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 523.24 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "885382208016"
+			(at 523.24 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Match Code" ""
+			(at 523.24 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mount" ""
+			(at 523.24 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature Max" ""
+			(at 523.24 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature Min" ""
+			(at 523.24 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Output Current" ""
+			(at 523.24 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Output Voltage" ""
+			(at 523.24 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Packaging" ""
+			(at 523.24 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Width" ""
+			(at 523.24 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "091e329d-9a0a-4446-aa5c-5c12fd913eb6")
+		)
+		(pin "1"
+			(uuid "2a957a8a-e4d1-4339-8bca-59a84f1fb31e")
+		)
+		(instances
+			(project "BMS-Mux-PCB"
+				(path "/a2925814-5dc3-4888-bdb8-1bf38cbb6bf2"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 353.06 96.52 180)
 		(unit 1)
@@ -21877,6 +23151,74 @@
 				(path "/a2925814-5dc3-4888-bdb8-1bf38cbb6bf2"
 					(reference "U2")
 					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 523.24 124.46 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5963006d-168e-4a43-873d-2a67048c8b62")
+		(property "Reference" "#PWR40"
+			(at 523.24 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 523.24 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 523.24 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 523.24 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 523.24 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8a955c1d-9403-45ab-80e6-398570633c53")
+		)
+		(instances
+			(project "BMS-Mux-PCB"
+				(path "/a2925814-5dc3-4888-bdb8-1bf38cbb6bf2"
+					(reference "#PWR40")
+					(unit 1)
 				)
 			)
 		)
@@ -22934,6 +24276,512 @@
 				(path "/a2925814-5dc3-4888-bdb8-1bf38cbb6bf2"
 					(reference "U1")
 					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:BSS123")
+		(at 527.05 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6be903d1-6d7e-4c27-b054-d91c6b19bf0e")
+		(property "Reference" "Q3"
+			(at 533.4 78.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSS123"
+			(at 533.4 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 532.13 81.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.diodes.com/assets/Datasheets/ds30366.pdf"
+			(at 532.13 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.17A Id, 100V Vds, N-Channel MOSFET, SOT-23"
+			(at 527.05 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Case/Size Code" ""
+			(at 527.05 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" ""
+			(at 527.05 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink1Description" ""
+			(at 527.05 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink1URL" ""
+			(at 527.05 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink2Description" ""
+			(at 527.05 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink2URL" ""
+			(at 527.05 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 527.05 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Input Voltage Max" ""
+			(at 527.05 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Input Voltage Min" ""
+			(at 527.05 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Length" ""
+			(at 527.05 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 527.05 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "BSS123L"
+			(at 527.05 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Match Code" ""
+			(at 527.05 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mount" ""
+			(at 527.05 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature Max" ""
+			(at 527.05 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature Min" ""
+			(at 527.05 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Output Current" ""
+			(at 527.05 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Output Voltage" ""
+			(at 527.05 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Packaging" ""
+			(at 527.05 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Width" ""
+			(at 527.05 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "19854293-9265-459b-b5cf-a99ad22a6c23")
+		)
+		(pin "2"
+			(uuid "01141966-e15a-4eb6-b61a-1305397f9429")
+		)
+		(pin "1"
+			(uuid "90f7ae9d-d106-4495-9027-5c7ac79e036d")
+		)
+		(instances
+			(project "BMS-Mux-PCB"
+				(path "/a2925814-5dc3-4888-bdb8-1bf38cbb6bf2"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 487.68 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "75bf6e98-b114-4a30-a6c4-00c0ed71c0ca")
+		(property "Reference" "R21"
+			(at 490.22 67.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 490.22 69.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 485.902 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 487.68 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 487.68 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Case/Size Code" ""
+			(at 487.68 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" ""
+			(at 487.68 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink1Description" ""
+			(at 487.68 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink1URL" ""
+			(at 487.68 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink2Description" ""
+			(at 487.68 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink2URL" ""
+			(at 487.68 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 487.68 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Input Voltage Max" ""
+			(at 487.68 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Input Voltage Min" ""
+			(at 487.68 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Length" ""
+			(at 487.68 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 487.68 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "ERA-6AEB163V"
+			(at 487.68 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Match Code" ""
+			(at 487.68 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mount" ""
+			(at 487.68 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature Max" ""
+			(at 487.68 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature Min" ""
+			(at 487.68 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Output Current" ""
+			(at 487.68 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Output Voltage" ""
+			(at 487.68 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Packaging" ""
+			(at 487.68 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Width" ""
+			(at 487.68 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2b8b01a9-7c4d-4d7f-9ddd-1790af521f1c")
+		)
+		(pin "1"
+			(uuid "b71cee83-b27b-4013-b404-2a4df6a3e522")
+		)
+		(instances
+			(project "BMS-Mux-PCB"
+				(path "/a2925814-5dc3-4888-bdb8-1bf38cbb6bf2"
+					(reference "R21")
+					(unit 1)
 				)
 			)
 		)
@@ -27129,6 +28977,254 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 500.38 80.01 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a0159c87-94bc-483e-a3f4-8edf2d0cd6d1")
+		(property "Reference" "R20"
+			(at 500.38 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 500.38 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 500.38 78.232 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 500.38 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 500.38 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Case/Size Code" ""
+			(at 500.38 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" ""
+			(at 500.38 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink1Description" ""
+			(at 500.38 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink1URL" ""
+			(at 500.38 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink2Description" ""
+			(at 500.38 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink2URL" ""
+			(at 500.38 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 500.38 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Input Voltage Max" ""
+			(at 500.38 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Input Voltage Min" ""
+			(at 500.38 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Length" ""
+			(at 500.38 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 500.38 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "ERA-6AEB163V"
+			(at 500.38 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Match Code" ""
+			(at 500.38 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mount" ""
+			(at 500.38 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature Max" ""
+			(at 500.38 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature Min" ""
+			(at 500.38 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Output Current" ""
+			(at 500.38 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Output Voltage" ""
+			(at 500.38 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Packaging" ""
+			(at 500.38 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Width" ""
+			(at 500.38 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c4f4b499-a4c1-4fdb-9b34-8861ea56f2c1")
+		)
+		(pin "1"
+			(uuid "9ff17979-a341-4144-bf8a-61c31fbb6f6d")
+		)
+		(instances
+			(project "BMS-Mux-PCB"
+				(path "/a2925814-5dc3-4888-bdb8-1bf38cbb6bf2"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 27.94 119.38 0)
 		(mirror y)
@@ -27191,6 +29287,72 @@
 			(project "BMS-Mux-PCB"
 				(path "/a2925814-5dc3-4888-bdb8-1bf38cbb6bf2"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 529.59 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a0804c13-9ddc-4317-af18-d3ec4a448757")
+		(property "Reference" "#PWR24"
+			(at 529.59 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 529.59 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 529.59 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 529.59 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 529.59 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f70be725-932d-45fe-a5d8-d8c22f1c475a")
+		)
+		(instances
+			(project "BMS-Mux-PCB"
+				(path "/a2925814-5dc3-4888-bdb8-1bf38cbb6bf2"
+					(reference "#PWR24")
 					(unit 1)
 				)
 			)
@@ -34227,6 +36389,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 529.59 87.63 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e777993f-41ba-420e-a7e5-3365a16eb683")
+		(property "Reference" "#PWR32"
+			(at 529.59 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 529.59 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 529.59 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 529.59 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 529.59 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "193528da-48f1-451f-9324-2f9317b6c3c0")
+		)
+		(instances
+			(project "BMS-Mux-PCB"
+				(path "/a2925814-5dc3-4888-bdb8-1bf38cbb6bf2"
+					(reference "#PWR32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 232.41 204.47 0)
 		(unit 1)
@@ -34488,6 +36718,72 @@
 			(project "BMS-Mux-PCB"
 				(path "/a2925814-5dc3-4888-bdb8-1bf38cbb6bf2"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 572.77 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc670411-aa42-4171-94d2-b6517c0fc3e5")
+		(property "Reference" "#PWR41"
+			(at 572.77 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 572.77 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 572.77 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 572.77 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 572.77 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1318167d-dc62-41ed-98f4-5e7b63071660")
+		)
+		(instances
+			(project "BMS-Mux-PCB"
+				(path "/a2925814-5dc3-4888-bdb8-1bf38cbb6bf2"
+					(reference "#PWR41")
 					(unit 1)
 				)
 			)
